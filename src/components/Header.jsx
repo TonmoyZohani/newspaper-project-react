@@ -3,6 +3,7 @@ import logo from "../assets/logo.png";
 import moment from "moment";
 import { Button } from "@mui/material";
 import Marquee from "react-fast-marquee";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -34,9 +35,9 @@ const Header = () => {
       {/* navbar */}
       <nav class="flex items-center justify-between bg-gray-600 py-4 px-6 border rounded-md mt-4">
         <div class="flex items-center">
-          <a href="#" class="text-white text-lg font-semibold">
+          <Link to="/" class="text-white text-lg font-semibold">
             Home
-          </a>
+          </Link>
           <a href="#" class="ml-6 text-gray-300 hover:text-white">
             About
           </a>

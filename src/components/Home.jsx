@@ -1,19 +1,14 @@
-import React from 'react'
-import LeftNav from './LeftNav'
-import MainContent from './MainContent'
-import RightNav from './RightNav'
+import React from "react";
+import LeftNav from "./LeftNav";
+import MainContent from "./MainContent";
+import RightNav from "./RightNav";
 
 const Home = () => {
   return (
-    <div className='container max-w-7xl mx-auto'>
-        <div className='flex justify-between'>
-        <LeftNav/>
-        <MainContent/>
-        <RightNav/>
-        </div>
-       
-    </div>
-  )
-}
+    <>
+      <h2>This is the home page</h2>
+    </>
+  );
+};
 
-export default Home
+export default Home;
